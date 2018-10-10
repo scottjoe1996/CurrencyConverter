@@ -2,7 +2,7 @@ package com.company;
 
 public class CurrencyConversionMenu {
     public void displaySelectCurrencyMenu(int what) {
-    System.out.println();
+        System.out.println();
         switch (what) {
             case 1:
                 System.out.println("You have chosen Pound Sterling, how much do you want to convert?");
@@ -27,7 +27,7 @@ public class CurrencyConversionMenu {
     }
 
     public boolean isValid(int ch) {
-        if(ch == 1 | ch == 2 | ch == 3) return false;
+        if (ch == 1 | ch == 2 | ch == 3) return false;
         else return true;
     }
 }
