@@ -1,1 +1,1 @@
-This program allows the user to convert currency between US dollars, Pound sterling or Euro. This is my first attempt at java, there is alot to improve.
+This program allows the user to convert currency between US dollars, Pound sterling or Euro. This is my first attempt at java, there is alot to improve.I chose this as I thought it would be the easiest to impliment many methods from chapters 1-10.
