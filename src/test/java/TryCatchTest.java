@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import java.awt.AWTException;
 
-public class MainTest {
+public class TryCatchTest {
 
     @Test
     public void tryCatchWrongIntCurrencyFrom() {
