@@ -29,4 +29,5 @@ public class CurrencyConversionAgainstMenu {
         if (ch == 1 | ch == 2) return false;
         else return true;
     }
+
 }

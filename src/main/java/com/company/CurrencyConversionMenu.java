@@ -30,4 +30,21 @@ public class CurrencyConversionMenu {
         if (ch == 1 | ch == 2 | ch == 3) return false;
         else return true;
     }
+
+    public boolean verifyInput(int i) {
+        if (i == 1) {
+            return false;
+        }
+        if (i == 2) {
+            return false;
+        }
+        throw new RuntimeException();
+    }
+
+    public int mathCompare(int i) {
+        if (i < 0) i = -i;
+        int a = 2 * i;
+        return a;
+    }
+
 }
