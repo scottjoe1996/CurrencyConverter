@@ -3,10 +3,17 @@ import com.company.InvalidChoice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+import java.awt.AWTException;
+
 public class MainTest {
 
     @Test
-    public void tryCatchCurrencyFrom() {
+    public void tryCatchWrongIntCurrencyFrom() {
         int currencyFrom = 0;
         String actual = "";
 
@@ -24,4 +31,5 @@ public class MainTest {
         }
         Assert.assertEquals(actual, expected);
     }
+
 }
